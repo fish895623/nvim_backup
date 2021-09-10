@@ -14,9 +14,6 @@ return require('packer').startup(function()
     use {'https://github.com/folke/todo-comments.nvim'}
     use {'https://github.com/custom-vim-ext/render-space'}  -- custom plugin
     use {'https://github.com/custom-vim-ext/render-number'} -- custom plugin
-    use {'https://github.com/neovim/nvim-lspconfig'}        -- language server
     use {'https://github.com/sumneko/lua-language-server'}  -- lua language
-    use {'https://github.com/ycm-core/YouCompleteMe'}       -- auto complete
-    use {'https://github.com/hrsh7th/nvim-compe'}
     use {'https://github.com/liuchengxu/vim-which-key'}     -- show which key easy to forget
 end)
