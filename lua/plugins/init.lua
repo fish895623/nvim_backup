@@ -1,0 +1,18 @@
+return require('packer').startup(function()
+    use 'https://github.com/wbthomason/packer.nvim'
+    use 'https://github.com/vim-airline/vim-airline'
+    use 'https://github.com/scrooloose/nerdtree'
+    use 'https://github.com/junegunn/vim-easy-align'
+    use 'https://github.com/vim-airline/vim-airline'
+    use 'https://github.com/vim-airline/vim-airline-themes'
+    use 'https://github.com/vim-syntastic/syntastic'
+    use 'https://github.com/vim-scripts/batch.vim'
+    use 'https://github.com/farmergreg/vim-lastplace'
+    use 'https://github.com/godlygeek/tabular'
+    use 'https://github.com/plasticboy/vim-markdown'
+    use 'https://github.com/nvim-lua/plenary.nvim'
+    use 'https://github.com/folke/todo-comments.nvim'
+    use 'https://github.com/custom-vim-ext/render-space'
+    use 'https://github.com/custom-vim-ext/render-number'
+    use 'https://github.com/jiangmiao/auto-pairs'
+end)
