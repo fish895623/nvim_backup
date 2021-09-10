@@ -6,9 +6,9 @@ if fn.empty(fn.glob(install_path)) > 0 then
   vim.cmd 'packadd packer.nvim'
 end
 
--- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
 require('plugins')
 require('keymaps')
 require('settings')
+require('lsp')

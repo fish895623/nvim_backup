@@ -8,3 +8,5 @@ vim.opt.shell = "bash"
 
  -- https://github.com/vim-airline/vim-airline
 vim.g.airline_symbols_ascii = 1
+
+vim.g.completion_enable_auto_popup = 0
